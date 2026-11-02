@@ -1,0 +1,24 @@
+{
+  "name": "chaos-organizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "webpack --mode production",
+  "start": "node server/index.js",
+  "dev": "webpack --mode development --watch"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/core": "^8.0.10",
+    "@babel/preset-env": "^8.0.7",
+    "babel-loader": "^10.1.1",
+    "eslint": "^10.14.0",
+    "eslint-webpack-plugin": "^6.0.0",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1"
+  }
+}

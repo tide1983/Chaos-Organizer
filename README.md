@@ -42,25 +42,22 @@
 ## 🖼 Скриншоты:
 
 Главный экран чата
-https://screenshots/main.png
+[https://screenshots/main.png](https://github.com/tide1983/Chaos-Organizer/blob/main/screenshots/main.png)
 
 Загрузка файла (Drag & Drop)
-https://screenshots/upload.png
+[https://screenshots/upload.png](https://github.com/tide1983/Chaos-Organizer/blob/main/screenshots/upload.png)
 
 Поиск по сообщениям
-https://screenshots/search.png
+[https://screenshots/search.png](https://github.com/tide1983/Chaos-Organizer/blob/main/screenshots/search.png)
 
 Команды бота
-https://screenshots/bot.png
+[https://screenshots/bot.png](https://github.com/tide1983/Chaos-Organizer/blob/main/screenshots/bot.png)
 
 Закрепленное сообщение
-https://screenshots/pin.png
-
-Избранное
-https://screenshots/favorites.png
+[https://screenshots/pin.png](https://github.com/tide1983/Chaos-Organizer/blob/main/screenshots/pin.png)
 
 Вложения по категориям
-https://screenshots/attachments.png
+[https://screenshots/attachments.png](https://github.com/tide1983/Chaos-Organizer/blob/main/screenshots/attachments.png)
 
 ## 📝 Как пользоваться:
 Отправка сообщения: введите текст в поле внизу и нажмите Enter или кнопку «Отправить».

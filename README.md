@@ -4,7 +4,7 @@
 
 ## 🚀 Демо
 - **Развернутое приложение (Render)**: [https://chaos-organizer.onrender.com](https://chaos-organizer.onrender.com)
-- **Статус сборки AppVeyor**: ![AppVeyor](https://ci.appveyor.com/api/projects/status/tide1983/chaos-organizer?svg=true)
+- **Статус сборки AppVeyor**: [![Build status](https://ci.appveyor.com/api/projects/status/1y9fhj9bs64tckvk/branch/main?svg=true)](https://ci.appveyor.com/project/tide1983/chaos-organizer)
 
 ## 📋 Реализованные функции
 

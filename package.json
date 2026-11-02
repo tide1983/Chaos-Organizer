@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build": "webpack --mode production",
-  "start": "node server/index.js",
-  "dev": "webpack --mode development --watch"
-},
+    "build": "webpack --mode production",
+    "start": "node server/index.js",
+    "dev": "webpack --mode development --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,9 +16,19 @@
     "@babel/core": "^8.0.10",
     "@babel/preset-env": "^8.0.7",
     "babel-loader": "^10.1.1",
+    "copy-webpack-plugin": "^14.0.0",
     "eslint": "^10.14.0",
     "eslint-webpack-plugin": "^6.0.0",
     "webpack": "^5.112.2",
     "webpack-cli": "^7.3.1"
+  },
+  "dependencies": {
+    "@koa/router": "^15.7.1",
+    "koa": "^3.2.1",
+    "koa-body": "^8.0.1",
+    "koa-mount": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^14.0.3",
+    "ws": "^8.22.1"
   }
 }

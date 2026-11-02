@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaos Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Chaos Organizer Bot</h1>
+            <input type="text" id="searchInput" placeholder="Поиск..." class="search-input">
+            <button id="favoritesBtn" class="header-btn" title="Избранное">⭐</button>
+            <button id="attachmentsBtn" class="header-btn" title="Вложения">📎</button>
+            <div class="status">онлайн</div>
+        </header>
+
+        <div id="pinnedBlock" class="pinned-block" style="display: none;">
+            <div class="pinned-content">
+                <span class="pinned-label">Закрепленное сообщение:</span>
+                <span id="pinnedText"></span>
+            </div>
+            <button id="unpinBtn" class="unpin-btn">✕</button>
+        </div>
+
+        <main class="chat-messages" id="messages">
+        </main>
+
+        <footer class="chat-input-area">
+            <input type="text" id="messageInput" placeholder="Напишите сообщение...">
+            <button id="sendBtn">Отправить</button>
+        </footer>
+    </div>
+
+    <!-- Модальное окно избранного -->
+    <div id="favoritesModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Избранное</h2>
+                <button id="closeFavorites" class="close-btn">✕</button>
+            </div>
+            <div id="favoritesList" class="favorites-list"></div>
+        </div>
+    </div>
+
+    <!-- Модальное окно вложений -->
+    <div id="attachmentsModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Вложения</h2>
+                <button id="closeAttachments" class="close-btn">✕</button>
+            </div>
+            <div id="attachmentsList" class="favorites-list"></div>
+        </div>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>

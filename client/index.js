@@ -15,7 +15,8 @@ const closeAttachments = document.getElementById('closeAttachments');
 const attachmentsList = document.getElementById('attachmentsList');
 
 const myClientId = Math.random().toString(36).substr(2, 9);
-const ws = new WebSocket(`ws://${window.location.host}`);
+const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+const ws = new WebSocket(`${protocol}//${window.location.host}`);
 
 let loadedCount = 0; 
 let isLoading = false; 
